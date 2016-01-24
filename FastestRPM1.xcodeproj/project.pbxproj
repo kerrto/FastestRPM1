@@ -15,6 +15,8 @@
 		AB858BBD1C5139D900C0E8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB858BBB1C5139D900C0E8F3 /* LaunchScreen.storyboard */; };
 		AB858BC81C5139D900C0E8F3 /* FastestRPM1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB858BC71C5139D900C0E8F3 /* FastestRPM1Tests.m */; };
 		AB858BD31C5139D900C0E8F3 /* FastestRPM1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB858BD21C5139D900C0E8F3 /* FastestRPM1UITests.m */; };
+		AB858BE11C513AF900C0E8F3 /* Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = AB858BE01C513AF900C0E8F3 /* Speedometer.png */; };
+		AB858BE31C513BC500C0E8F3 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = AB858BE21C513BC500C0E8F3 /* needle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AB858BCE1C5139D900C0E8F3 /* FastestRPM1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPM1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB858BD21C5139D900C0E8F3 /* FastestRPM1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPM1UITests.m; sourceTree = "<group>"; };
 		AB858BD41C5139D900C0E8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB858BE01C513AF900C0E8F3 /* Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Speedometer.png; sourceTree = "<group>"; };
+		AB858BE21C513BC500C0E8F3 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		AB858BAD1C5139D900C0E8F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB858BE01C513AF900C0E8F3 /* Speedometer.png */,
+				AB858BE21C513BC500C0E8F3 /* needle.png */,
 				AB858BAE1C5139D900C0E8F3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB858BBD1C5139D900C0E8F3 /* LaunchScreen.storyboard in Resources */,
+				AB858BE31C513BC500C0E8F3 /* needle.png in Resources */,
 				AB858BBA1C5139D900C0E8F3 /* Assets.xcassets in Resources */,
 				AB858BB81C5139D900C0E8F3 /* Main.storyboard in Resources */,
+				AB858BE11C513AF900C0E8F3 /* Speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
